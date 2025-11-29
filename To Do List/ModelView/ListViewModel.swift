@@ -14,7 +14,7 @@ class ListViewModel:ObservableObject{
     @Published var items :[ItemModel] = []{
         
         didSet {
-            
+            saveItem()
         }
     }
     
